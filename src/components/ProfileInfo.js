@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 
 function ProfileInfo(props){
     console.log(props)
-    return(
+    return (
         <div className='container-box'>
             <h1 className='first-last-name'>{props.currentPerson.name.first} {props.currentPerson.name.last}</h1>
             <h2 className='from-country'>From: {props.currentPerson.country} </h2>
@@ -14,6 +14,8 @@ function ProfileInfo(props){
                 <p>3. {props.currentPerson.favoriteMovies[2]}</p>
             </h2>
         </div>
+
     )
+    
 }
 export default ProfileInfo

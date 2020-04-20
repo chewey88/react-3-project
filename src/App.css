@@ -58,3 +58,29 @@ p {
   margin-left: 5%;
   font-weight: 600;
 }
+
+.prev-next-buttons {
+  display: inline-flex;
+  flex-direction: column;
+  /* justify-items: last baseline; */
+  font-weight: 600;
+  font-size: larger;
+
+  /* color: #35a5da; */
+}
+.previous-button {
+  height: 50px;
+  width: 125px;
+  background-color: transparent;
+  border: transparent;
+  font-size: larger;
+  color: #35a5da;
+}
+.next-button {
+  height: 50px;
+  width: 125px;
+  background-color: transparent;
+  border: transparent;
+  font-size: larger;
+  color: #35a5da;
+}
